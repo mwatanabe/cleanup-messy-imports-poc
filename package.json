@@ -1,0 +1,19 @@
+{
+  "name": "cleanup-messy-imports-poc",
+  "version": "0.0.1",
+  "scripts": {
+    "flow": "flow",
+    "test": "jest",
+    "webpack": "webpack",
+    "all": "npm run flow && npm test && npm run webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.4.0",
+    "flow-bin": "^0.44.2",
+    "jest": "^19.0.2",
+    "webpack": "^2.4.1"
+  }
+}
