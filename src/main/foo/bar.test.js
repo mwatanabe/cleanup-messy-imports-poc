@@ -1,6 +1,6 @@
-import bar from "./bar";
-import Lib from "../../lib/Lib";
-jest.mock('../../lib/Lib');
+import bar from './bar';
+import Lib from 'lib/Lib';
+jest.mock('lib/Lib');
 
 test('jest', () => {
     bar();

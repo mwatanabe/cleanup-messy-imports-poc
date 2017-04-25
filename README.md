@@ -1,7 +1,7 @@
 # cleanup-messy-imports-poc
-Cleanup messy import paths in JavaScript code Edit Add topics
+Cleanup messy import paths in JavaScript code
 
-# run check 
+# run
 ## flow 
 ```
 npm run flow 

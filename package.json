@@ -15,5 +15,11 @@
     "flow-bin": "^0.44.2",
     "jest": "^19.0.2",
     "webpack": "^2.4.1"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ]
   }
 }
